@@ -1,0 +1,12 @@
+'.shade':
+    'if (block)':
+        'prefix': 'ifb'
+        'body': '{% if ${1:condition} %}\n    $0\n'
+    'if ... else':
+        'prefix': 'ife'
+        'body': '{% if ${1:condition} %}\n    $2\n{% else %}\n    $0\n'
+    'if':
+        'prefix': 'if'
+        'body': '{% if ${1:condition} %}$0'
+    'unless':
+        'prefix':

@@ -1,0 +1,13 @@
+{
+    "name":    "language-shade"
+  , "version": "0.0.1"
+  , "private": false
+  , "description": "Atom language support for shade"
+  , "repository": "https://github.com/Yoshi325/language-shade"
+  , "license": "GPL2"
+  , "engines":
+    {
+        "atom": ">0.10.0"
+    }
+  , "dependencies": {}
+}

@@ -1,0 +1,9 @@
+{
+    ".shade":
+    {
+        "editor":
+        {
+            "commentStart": "//"
+        }
+  }
+}
